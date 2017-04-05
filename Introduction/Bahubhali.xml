@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name = "test suite">
+
+	<test name = "test test">
+	
+		<parameter name="mukesh" value="m6789"/>
+		
+		<classes>
+		
+			<class name = "testNG.parameterss"/>
+		
+		
+		</classes>
+	
+	
+	</test>
+
+
+</suite>

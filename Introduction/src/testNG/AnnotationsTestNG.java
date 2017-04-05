@@ -1,9 +1,33 @@
-package testNG;
+/*package testNG;
+
 
 import org.testng.annotations.Test;
+import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.AfterMethod;
 
 public class AnnotationsTestNG {
-/*	
+	
+	@org.testng.annotations.BeforeTest
+	public void Samplebefore(){
+		System.out.println("test1");
+	}
+	
+	
+	@Test(groups = "priority1")
+	public void sample(){
+		System.out.println("sample");
+	}
+	
+	@AfterTest
+	public void Sampleafter(){
+		System.out.println("test1");
+	}
+	
+	
+	@BeforeMethod
+	public void Before(){
+		System.out.println("Before Method");
+	}
 	@Test
 	public void first(){
 		System.out.println("Executing First ");
@@ -21,7 +45,7 @@ public class AnnotationsTestNG {
 		System.out.println();
 	}
 	
-	@BeforeTest
+	@org.testng.annotations.BeforeTest
 	public void BeforeTest(){
 		System.out.println("Executing Before Test ");
 		System.out.println();
@@ -45,6 +69,22 @@ public class AnnotationsTestNG {
 		System.out.println();
 	}
 	
+	@Test(groups = "priority1")
+	public void FoolProof1(){
+		System.out.println("Fools Proof 1");
+	}
+	
+	@Test(groups = "priority2")
+	public void FoolProof2(){
+		System.out.println("Fools Proof 2");
+	}
+	
+	@Test(groups = "prioritilu")
+	public void FoolProof3(){
+		System.out.println("Fools Proofulu ");
+	}
+	
+	/*
 	@BeforeSuite
 	public void BeforeSuite(){
 		System.out.println("Executing Before Suite ");
@@ -56,6 +96,6 @@ public class AnnotationsTestNG {
 		System.out.println("Executing After Suite ");
 		System.out.println();
 	}
-*/	
 	
-}
+	
+}*/
