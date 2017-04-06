@@ -1,4 +1,4 @@
-/*package testNG;
+package testNG;
 
 
 import org.testng.annotations.Test;
@@ -6,7 +6,7 @@ import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.AfterMethod;
 
 public class AnnotationsTestNG {
-	
+/*	
 	@org.testng.annotations.BeforeTest
 	public void Samplebefore(){
 		System.out.println("test1");
@@ -96,6 +96,6 @@ public class AnnotationsTestNG {
 		System.out.println("Executing After Suite ");
 		System.out.println();
 	}
+	*/
 	
-	
-}*/
+}
